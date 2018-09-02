@@ -1,0 +1,12 @@
+@import "@/style/mixin.scss";
+
+.home-container {
+  .submit-btn {
+    width: 90%;
+    background-color: $base-color;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    line-height: 100px;
+    @include font(40px, #fff, right);
+  }
+}
