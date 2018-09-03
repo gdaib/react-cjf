@@ -1,6 +1,7 @@
 @import "@/style/mixin.scss";
 
 .balance-main-content {
+  margin-top: 88px;
   padding-top: $common-wd;
   .balance-header {
     @include font(32px, #999);

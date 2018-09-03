@@ -12,7 +12,6 @@ export default class TouchableOpacity extends Component {
   }
 
   handleTouchStart = () => {
-    console.log('sdfjdslkj')
     this.refs.btn.style.opacity = 0.3;
   }
 
